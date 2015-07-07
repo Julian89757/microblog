@@ -1,0 +1,264 @@
+﻿[Sun Jun 28 2015 00:13:35 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Studio\源码实例\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Studio\源码实例\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:186:14)
+[Sun Jun 28 2015 00:14:31 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Studio\源码实例\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Studio\源码实例\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:186:14)
+[Sun Jun 28 2015 00:14:33 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Studio\源码实例\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Studio\源码实例\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:186:14)
+[Sun Jun 28 2015 00:14:35 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Studio\源码实例\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Studio\源码实例\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:186:14)
+[Sun Jun 28 2015 00:14:37 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Studio\源码实例\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Studio\源码实例\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Studio\源码实例\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:34:58 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:05 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:06 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:08 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:23 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:25 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:32 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:33 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:35 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:36 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:37 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:38 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:39 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:46 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:35:47 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:36:05 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:36:14 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:36:22 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
+[Tue Jul 07 2015 22:36:39 GMT+0800 (中国标准时间)]Error: Not Found
+    at G:\Source\microblog\app.js:70:15
+    at Layer.handle [as handle_request] (G:\Source\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (G:\Source\microblog\node_modules\express\lib\router\index.js:270:13)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (G:\Source\microblog\node_modules\express\lib\router\index.js:312:12)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (G:\Source\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:189:10)
+    at G:\Source\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (G:\Source\microblog\node_modules\express\lib\router\index.js:186:14)
