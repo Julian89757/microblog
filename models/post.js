@@ -1,8 +1,6 @@
 //   微博模型
-
 var  mongodb  = require('./db');
 
-// 构造函数方式定义微博
 function Post(username,post,time){
     this.user = username;
     this.post = post;
@@ -10,13 +8,12 @@ function Post(username,post,time){
     if(time)    {
         this.time= time;
     }else {
-        this.time =new Date();
+        this.time= new Date();
     }
 }
 
-module.exports = Post;      //  此模块就爱你过返回 Post 构造函数
+module.exports = Post;      //  此模块将返回Post对象，不是基于Post对象的实例
 
-// 获取微博。按照用户或者获取全部的内容
 Post.get= function(username,callback){
     mongodb.open(function(err,db){
         if(err) {

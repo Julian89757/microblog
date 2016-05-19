@@ -36,6 +36,7 @@ User.prototype.save = function save(callback) {
 	});
 };
 
+// 有点类似于静态方法，实际上只对User对象有效， new User()实例化的对象是没有此方法的
 User.get = function get(username,callback){
 	mongodb.open(function(err,db) {
 		if(err)	{

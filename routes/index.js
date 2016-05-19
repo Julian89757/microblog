@@ -80,15 +80,15 @@ router.post('/reg',function(req,res){
 		if(user)
 			err ='Username  already  exists';
 		if(err){
-			req.flash('error',err);								// 通过他保存的变量只会在永固红的那个钱和下一次的请求中被访问
-			return  res.redirect('/reg');							//  通知浏览器转向
+			req.flash('error',err);								
+			return  res.redirect('/reg');					
 		}
-		newUser.save(function(err)	{								// 保存用户
+		newUser.save(function(err)	{						
 		if(err)	{
 			req.flash('error',err);
 			return res.redirect('/reg');
 		}
-		req.session.user = newUser;							// 将会话对象写入了当前用户的信息
+		req.session.user = newUser;							
 		req.flash('success','注册成功');
 		res.redirect('/');
 	});
@@ -137,6 +137,7 @@ function  checkLogin(req,res,next){
 		req.flash('error','未登入');
 		res.redirect('/');
 	}
+	// 继续走向下一个中间件
 	next();
 }
 

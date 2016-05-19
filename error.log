@@ -7886,3 +7886,486 @@ Invalid indentation, you can use tabs or spaces but not both
     at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
     at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
     at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:21:09 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:21:17 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:21:18 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:22:04 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:27:04 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:27:06 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:27:39 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:28:09 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:31:58 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:00 GMT+0800 (Malay Peninsula Standard Time)]TypeError: F:\Workplace\microblog\views\include\posts.jade:11
+    9|                 a(href='/u/' + posts[x].user)=posts[x].user
+    10|             p
+  > 11|                 small= posts[x].time.format("yyyy-MM-dd HH:mm:ss")
+    12|             p=posts[x].post
+    13| -if (x % 3 == 2){
+    14|     </div>
+
+posts[x].time.format is not a function
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:254:72)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:219:7)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:377:22)
+    at res (F:\Workplace\microblog\node_modules\jade\lib\jade.js:175:38)
+    at Object.exports.render (F:\Workplace\microblog\node_modules\jade\lib\jade.js:300:10)
+    at Object.exports.renderFile (F:\Workplace\microblog\node_modules\jade\lib\jade.js:336:18)
+    at View.exports.renderFile [as engine] (F:\Workplace\microblog\node_modules\jade\lib\jade.js:321:21)
+    at View.render (F:\Workplace\microblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\Workplace\microblog\node_modules\express\lib\application.js:527:10)
+[Thu May 19 2016 18:45:01 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:01 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:02 GMT+0800 (Malay Peninsula Standard Time)]TypeError: F:\Workplace\microblog\views\include\posts.jade:11
+    9|                 a(href='/u/' + posts[x].user)=posts[x].user
+    10|             p
+  > 11|                 small= posts[x].time.format("yyyy-MM-dd HH:mm:ss")
+    12|             p=posts[x].post
+    13| -if (x % 3 == 2){
+    14|     </div>
+
+posts[x].time.format is not a function
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:254:72)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:219:7)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:377:22)
+    at res (F:\Workplace\microblog\node_modules\jade\lib\jade.js:175:38)
+    at Object.exports.render (F:\Workplace\microblog\node_modules\jade\lib\jade.js:300:10)
+    at Object.exports.renderFile (F:\Workplace\microblog\node_modules\jade\lib\jade.js:336:18)
+    at View.exports.renderFile [as engine] (F:\Workplace\microblog\node_modules\jade\lib\jade.js:321:21)
+    at View.render (F:\Workplace\microblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\Workplace\microblog\node_modules\express\lib\application.js:527:10)
+[Thu May 19 2016 18:45:02 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:02 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:17 GMT+0800 (Malay Peninsula Standard Time)]TypeError: F:\Workplace\microblog\views\include\posts.jade:11
+    9|                 a(href='/u/' + posts[x].user)=posts[x].user
+    10|             p
+  > 11|                 small= posts[x].time.format("yyyy-MM-dd HH:mm:ss")
+    12|             p=posts[x].post
+    13| -if (x % 3 == 2){
+    14|     </div>
+
+posts[x].time.format is not a function
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:254:72)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:219:7)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:377:22)
+    at res (F:\Workplace\microblog\node_modules\jade\lib\jade.js:175:38)
+    at Object.exports.render (F:\Workplace\microblog\node_modules\jade\lib\jade.js:300:10)
+    at Object.exports.renderFile (F:\Workplace\microblog\node_modules\jade\lib\jade.js:336:18)
+    at View.exports.renderFile [as engine] (F:\Workplace\microblog\node_modules\jade\lib\jade.js:321:21)
+    at View.render (F:\Workplace\microblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\Workplace\microblog\node_modules\express\lib\application.js:527:10)
+[Thu May 19 2016 18:45:18 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:18 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:18 GMT+0800 (Malay Peninsula Standard Time)]Error: db object already connecting, open cannot be called multiple times
+    at Db.open (F:\Workplace\microblog\node_modules\mongodb\lib\mongodb\db.js:259:11)
+    at Function.get (F:\Workplace\microblog\models\user.js:40:10)
+    at F:\Workplace\microblog\routes\index.js:22:8
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (F:\Workplace\microblog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:234:24
+    at param (F:\Workplace\microblog\node_modules\express\lib\router\index.js:331:14)
+    at param (F:\Workplace\microblog\node_modules\express\lib\router\index.js:347:14)
+[Thu May 19 2016 18:45:18 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:18 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:19 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:19 GMT+0800 (Malay Peninsula Standard Time)]Error: db object already connecting, open cannot be called multiple times
+    at Db.open (F:\Workplace\microblog\node_modules\mongodb\lib\mongodb\db.js:259:11)
+    at Function.get (F:\Workplace\microblog\models\user.js:40:10)
+    at F:\Workplace\microblog\routes\index.js:22:8
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (F:\Workplace\microblog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:234:24
+    at param (F:\Workplace\microblog\node_modules\express\lib\router\index.js:331:14)
+    at param (F:\Workplace\microblog\node_modules\express\lib\router\index.js:347:14)
+[Thu May 19 2016 18:45:19 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:19 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:19 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:23 GMT+0800 (Malay Peninsula Standard Time)]TypeError: F:\Workplace\microblog\views\include\posts.jade:11
+    9|                 a(href='/u/' + posts[x].user)=posts[x].user
+    10|             p
+  > 11|                 small= posts[x].time.format("yyyy-MM-dd HH:mm:ss")
+    12|             p=posts[x].post
+    13| -if (x % 3 == 2){
+    14|     </div>
+
+posts[x].time.format is not a function
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:254:72)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:219:7)
+    at eval (eval at <anonymous> (F:\Workplace\microblog\node_modules\jade\lib\jade.js:174:8), <anonymous>:377:22)
+    at res (F:\Workplace\microblog\node_modules\jade\lib\jade.js:175:38)
+    at Object.exports.render (F:\Workplace\microblog\node_modules\jade\lib\jade.js:300:10)
+    at Object.exports.renderFile (F:\Workplace\microblog\node_modules\jade\lib\jade.js:336:18)
+    at View.exports.renderFile [as engine] (F:\Workplace\microblog\node_modules\jade\lib\jade.js:321:21)
+    at View.render (F:\Workplace\microblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\Workplace\microblog\node_modules\express\lib\application.js:527:10)
+[Thu May 19 2016 18:45:23 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:45:24 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:07 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:08 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:08 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:09 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:09 GMT+0800 (Malay Peninsula Standard Time)]Error: db object already connecting, open cannot be called multiple times
+    at Db.open (F:\Workplace\microblog\node_modules\mongodb\lib\mongodb\db.js:259:11)
+    at Function.get (F:\Workplace\microblog\models\user.js:40:10)
+    at F:\Workplace\microblog\routes\index.js:22:8
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (F:\Workplace\microblog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:234:24
+    at param (F:\Workplace\microblog\node_modules\express\lib\router\index.js:331:14)
+    at param (F:\Workplace\microblog\node_modules\express\lib\router\index.js:347:14)
+[Thu May 19 2016 18:46:09 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:09 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:09 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:09 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:10 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:10 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
+[Thu May 19 2016 18:46:10 GMT+0800 (Malay Peninsula Standard Time)]Error: Not Found
+    at F:\Workplace\microblog\app.js:67:15
+    at Layer.handle [as handle_request] (F:\Workplace\microblog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\Workplace\microblog\node_modules\express\lib\router\index.js:270:13)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:237:9
+    at Function.proto.process_params (F:\Workplace\microblog\node_modules\express\lib\router\index.js:312:12)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:228:12
+    at Function.match_layer (F:\Workplace\microblog\node_modules\express\lib\router\index.js:295:3)
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:189:10)
+    at F:\Workplace\microblog\node_modules\express\lib\router\index.js:560:15
+    at next (F:\Workplace\microblog\node_modules\express\lib\router\index.js:186:14)
