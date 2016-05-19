@@ -137,7 +137,7 @@ function  checkLogin(req,res,next){
 		req.flash('error','未登入');
 		res.redirect('/');
 	}
-	// 继续走向下一个中间件
+	// next() 方法提示继续走向下一个中间件
 	next();
 }
 
