@@ -1,29 +1,25 @@
 var express = require('express');
-var router = express.Router();
-var crypto =  require('crypto');			// 功能是加密并生成各种散列
+var router = express.Router(); 
+var crypto =  require('crypto');			
 
-var User  =require('../models/user.js');
+var User = require('../models/user.js');
 var Post = require('../models/post.js');
 
-/* 以下有点类似 MVC 动作*/
-
-
-/* GET home page.    第一个参数是请求路径，第二个参数是路由规则被处罚时候调用的回调函数 */
 router.get('/', function(req, res,next) {
 	if(req.session.user)
-		res.redirect('/u/'+req.session.user.name);
+		res.redirect('/u/'+ req.session.user.name);
 	else
+		// next() 将会匹配后来的路由
 		next();
 });
 
-/* GET home page.    第一个参数是请求路径，第二个参数是路由规则被触发时候调用的回调函数 */
+// 定义网站主页使用的路由
 router.get('/', function(req, res) {
-	res.render('index', { title: 'Express',info:req.flash('info')});			/* 调用模板引擎，翻译名为index的视图模板，并且传入一个对象作为参数，这个对象只有一个参数*/
+	res.render('index', { title: 'Express',info:req.flash('info')} );		
 });
 
-
-router.get('/u/:user',function(req,res){				// :user 是请求参数
-	User.get(req.params.user,function(err,user){
+router.get('/u/:user',function(req,res){			
+		User.get(req.params.user,function(err,user){
 		if(!user){
 			req.flash('error','用户不存在');
 			return res.redirect('/');
@@ -33,8 +29,7 @@ router.get('/u/:user',function(req,res){				// :user 是请求参数
 				req.flash('error',err);
 				return res.redirect('/');
 			}
-
-			res.render('user',{			// 使用get 根本就没有这个页面，使用render;'user' 是视图名称
+			res.render('user',{
 				title:user.name,
 				posts:posts
 			})
@@ -44,7 +39,7 @@ router.get('/u/:user',function(req,res){				// :user 是请求参数
 
 router.post('/post',checkLogin);
 router.post('/post',function(req,res){
-	var  currentUser = req.session.user;				//  通过req.session 获取用户session
+	var  currentUser = req.session.user;
 	var post = new  Post(currentUser.name,req.body.post);
 	post.save(function(err){
 		if(err) {

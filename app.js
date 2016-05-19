@@ -21,30 +21,32 @@ var users = require('./routes/users');
 var flash =require('connect-flash');
 var app = express();
 
-// 设置视图存放位置，设置视图引擎为jade
+// 能够set的属性是 app settings table 里面指定的配置项
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-app.set('env','production');                        // 设置生产环境
+app.set('env','production');                
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 
+//  为参数1添加指定的中间件功能，参数1是path，没有指定的话默认是'/'
 app.use(logger('combined', {stream: accessLogStream}));
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());                		  // cookie 解析的中间件
-app.use(session({                               //  提供会话支持
+app.use(cookieParser());
+
+app.use(session({                               
     secret:settings.cookieSecret,
-    store: new  MongoStore({                    // session 的存储实例,，将会存储在MongoDB数据库，默认的cookie HttpOnly属性为true，为了明显调试，我们该为false
+    name:'testapp',         // 这里的name 是cookie 的name，默认cookie的name是 connect.sid 
+    store: new  MongoStore({                    
         db:settings.db
     }),
     cookie:{ httpOnly:false}
 }));
 app.use(flash());
 
-app.use(function(req,res,next) {               // 视图交互
-    res.locals.user = req.session.user;             // response 本地变量值针对特定请求
+app.use(function(req,res,next) {             
+    res.locals.user = req.session.user;      
     res.locals.post =  req.session.post;
     var  error  = req.flash('error');
     res.locals.error =error.length?error:null;
