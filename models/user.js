@@ -6,10 +6,10 @@ function  User(user){
 	this.password  = user.password;
 };
 
-module.exports = User;			// exports 是当前模块的导出对象，用于导出模块的公有方法和属性，通过module对象可以访问到当前模块的一些相关信息
+module.exports = User;			
 
 User.prototype.save = function save(callback) {
-	// 存如Mongodb 的文档
+	// 存放 Mongodb 的文档
 	var  user  = {
 		name:this.name,
 		password :this.password
