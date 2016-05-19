@@ -4,20 +4,20 @@ block content
 	form.form-horizontal(method='post')
 		fieldset
 			legend 	用户注册
-
-			.control-group
-			label.control-label(for='username') 用户名
-			.controls
-				input(type='text',class='input-xlarge',name='username')#username
-				p 你的账户名称，用于登录和显示
-			.control-group
-			label.control-label(for='password') 口令
-			.controls
-				input(type='password',class='input-xlarge',name='password')#password
-			.control-group
-			label.control-label(for='password-repeat') 重复输入口令
-			.controls
-				input(type='password',class='input-xlarge',name='password-repeat')#password-repeat
-			p(style="color: red;background:green")=error
+			.form-group
+				label.control-label.col-sm-2(for='username') 用户名
+				.col-sm-4
+					input(type='text',class='form-control',name='username')#username
+					p 你的账户名称，用于登录和显示
+			.form-group
+				label.control-label.col-sm-2(for='password') 口令
+				.col-sm-4
+					input(type='password',class='form-control',name='password')#password
+			.form-group
+				label.control-label.col-sm-2(for='password-repeat') 重复输入口令
+				.col-sm-4
+					input(type='password',class='form-control',name='password-repeat')#password-repeat
+					p(style="color: red;background:green")=error
 			.form-actions
+				.col-sm-2
 				button(type='submit', class='btn btn-primary') 注册    

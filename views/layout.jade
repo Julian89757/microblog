@@ -3,40 +3,35 @@ html
     head
         title=title
         link(rel='stylesheet', href='/stylesheets/bootstrap.css')
-        link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.css')
         style(type='text/css').
             body{
             padding-top:60px;
             padding-bottom:40px
             }
     body
-        div(class='navbar  navbar-fixed-top')
-            .navbar-inner
-                .container
-                    a.btn.btn-navbar&attributes({"data-toggle":"collapse","data-target":"nav-clooapse"})
-                        span.icon-bar
-                        span.icon-bar
-                        span.icon-bar
-                    a(class='brand', href='/') Microblog
-                    div(class="nav-collapse")
-                        ul(class="nav")
-                            li(class="active") 
-                                a(href='/')  首页
-                            if  (!user) 
-                                li 
-                                    a(href='/login') 登录
-                                li 
-                                    a(href='/reg') 注册
-                            else                                 
-                                li
-                                    a(href='/logout')  退出
-                                
+        header(class='navbar navbar-inverse  navbar-fixed-top')
+            .container
+                .navbar-header
+                    a(class='navbar-brand', href='/') Microblog
+                nav(class="navbar-collapse collapse")
+                    ul(class="nav navbar-nav")
+                        li 
+                            a(href='/')  首页
+                        if  (!user) 
+                            li 
+                                a(href='/login') 登录
+                            li 
+                               a(href='/reg') 注册
+                        else                                 
+                            li
+                               a(href='/logout')  退出
         #container.container
             block content
             hr
-            footer
+        footer.bs-docs-footer
+            .container
                 p 
-                    a(href="http://www.byvoid.com",traget="_blank") BYVOID          
-                    span 2012
+                    a(href="http://www.baidu.com",traget="_blank")  有态度的马甲          
+                    span 2016
     script(src='/javascripts/jquery.js')
     script(src='/javascripts/bootstrap.js')

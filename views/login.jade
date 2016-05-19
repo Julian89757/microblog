@@ -3,15 +3,16 @@ extends ./layout.jade
 block content
 	form.form-horizontal(method='post')
 		fieldset
-			legend 用户登入
-			.class-group
-				label.control-label(for='username') 用户名
-				.controls
-					input(type='text',class='input-xlarge',name='username')#username
-			.class-group
-				label.control-label(for='password') 口令
-				.controls
-					input(type='password',class='input-xlarge',name='password')#password
-			.form-actions
-				button(type='submit',class='btn btn-primary')  登入
+		legend 用户登入
+		.form-group
+			label.control-label.col-sm-2(for='username') 用户名
+			.col-sm-4
+				input(type='text',class='form-control',name='username')#username
+		.form-group
+			label.control-label.col-sm-2(for='password') 口令
+			.col-sm-4
+				input(type='password',class='form-control',name='password')#password
+		.form-group
+			.col-sm-2
+			button(type='submit',class='btn btn-default')  登录
 

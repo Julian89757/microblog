@@ -1,5 +1,6 @@
-var express = require('express');
-var router = express.Router(); 
+/* 下面主要是路由级中间件的应用，这里的路由级中间件有点类似于Controller-Action */
+
+var router = require('express').Router();
 var crypto =  require('crypto');			
 
 var User = require('../models/user.js');
@@ -9,7 +10,6 @@ router.get('/', function(req, res,next) {
 	if(req.session.user)
 		res.redirect('/u/'+ req.session.user.name);
 	else
-		// next() 将会匹配后来的路由
 		next();
 });
 
@@ -39,7 +39,7 @@ router.get('/u/:user',function(req,res){
 
 router.post('/post',checkLogin);
 router.post('/post',function(req,res){
-	var  currentUser = req.session.user;
+	var currentUser = req.session.user;
 	var post = new  Post(currentUser.name,req.body.post);
 	post.save(function(err){
 		if(err) {
@@ -47,7 +47,7 @@ router.post('/post',function(req,res){
 			return res.redirect('/');
 		}
 		req.flash('success','发表成功');
-		res.redirect('/u/'+currentUser.name);
+		res.redirect('/u/'+ currentUser.name);
 	});
 });
 
@@ -102,7 +102,7 @@ router.get('/login',function(req,res){
 });
 
 router.post('/login',function(req,res){
-	var  md5 =crypto.createHash('md5');
+	var  md5 = crypto.createHash('md5');
 	var password = md5.update(req.body.password).digest('base64');
 
 	User.get(req.body.username,function(err,user) {
@@ -115,7 +115,7 @@ router.post('/login',function(req,res){
 			return  res.redirect('/login');
 		}
 		req.session.user = user;
-		req.flash('success','登入成功');
+		req.flash('success','登录成功');
 		res.redirect('/');
 	});
 });
@@ -132,7 +132,7 @@ router.get('/logout',function(req,res) {
 // 以下为路由中间件，主要用到 next方法
 
 //  用户还没登录， 阻止用户访问该页面 '/loginout'
-function   checkLogin(req,res,next){
+function  checkLogin(req,res,next){
 	if(!req.session.user)	{
 		req.flash('error','未登入');
 		res.redirect('/');

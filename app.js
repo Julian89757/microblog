@@ -26,15 +26,13 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.set('env','production');                
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(__dirname + '/public/favicon.ico'));
 
-//  为参数1添加指定的中间件功能，参数1是path，没有指定的话默认是'/'
+/* 以下是应用级中间件 */
+
 app.use(logger('combined', {stream: accessLogStream}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-
 app.use(session({                               
     secret:settings.cookieSecret,
     name:'testapp',         // 这里的name 是cookie 的name，默认cookie的name是 connect.sid 
@@ -44,7 +42,6 @@ app.use(session({
     cookie:{ httpOnly:false}
 }));
 app.use(flash());
-
 app.use(function(req,res,next) {             
     res.locals.user = req.session.user;      
     res.locals.post =  req.session.post;
@@ -54,7 +51,6 @@ app.use(function(req,res,next) {
     var  success = req.flash('success');
     res.locals.success =success.length ? success:null;
     next();
-
 });
 
 
@@ -64,14 +60,13 @@ app.use(function(req,res,next) {
 // GET /favicon.icon   app.use([path],function) path默认为 '/'
 app.use(express.static(path.join(__dirname, 'public')));
 
-// 挂载中间件，只要请求路径匹配我们的path，将会引起中间件执行，默认路径是'/'
 app.use('/', routes);
 
 // catch 404 and forward to error handler,  //  使用app.use定义的中间件的顺序非常重要，use的先后顺序决定了中间件的优先级
 app.use('/',function(req, res, next) {
     var err = new Error('Not Found');
-    err.status = 404;       // 这个地方体现了闭包，err将会 传入到下面的错误响应路由
-    next(err);              // 路由控制权转移，如果此次请求出错，将路由响应传递到下面一个规则
+    err.status = 404;
+    next(err);              
 });
 
 // error handlers
@@ -88,25 +83,20 @@ if (app.get('env') === 'development') {
     });
 }
 
-// production error handler
-// no stacktraces leaked to user
+//  在其他app.use 和路由调用之后，最后定义错误处理中间件
 app.use(function(err, req, res, next) {
-    var meta = '['+new  Date()+']';
-    errorLogStream.write(meta+err.stack+'\n');          // 生产环境，将堆栈写进文件
+    var time = '['+new  Date()+']';
+    errorLogStream.write( time + err.stack+'\n');          
 
-    res.render('error',{
+    res.status(500).render('error',{
         message:err.message,
         error:{}
     })
 });
 
-
-
-
-
 if(!module.parent){
    app.listen(3000);
-   console.log('Express server  listening on port 3000 in %s mode',app.settings.env);
-  
+   console.log('Express server listening on port 3000 in %s mode',app.settings.env);
 }
+
  module.exports = app;
