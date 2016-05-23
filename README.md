@@ -2,7 +2,7 @@
 简易微博
 
 ## bin  存放命令行程序
-## models 存放业务逻辑js文件， 应该放业务后端代码
+## models 存放业务逻辑js文件， 应该放后端业务代码
 ## node_modules 存放所有的项目依赖库
 ## public 存放静态文件，包括css，js，img等
 ## routes 存放路由文件
