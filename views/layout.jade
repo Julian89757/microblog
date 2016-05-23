@@ -1,8 +1,19 @@
 doctype html
 html    
     head
-        title=title
+        meta(name='viewport',content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+        title=title         /* 这之间还不能空格*/
         link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+        script(src='/javascripts/jquery.js')
+        script(src='/javascripts/bootstrap.js')
+        script(src='http://api.map.baidu.com/api?v=2.0&ak=SSC5M3AFkxWqbgXLDpItGi8g')
+        script(src='http://api.map.baidu.com/library/AreaRestriction/1.2/src/AreaRestriction_min.js')        
+        script(src='http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js')        
+        script(src='http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer.js')        
+        script(src='/Overlay.js') 
+        script(src='/map.js') 
+        script(src='/jstree-map.js') 
+
         style(type='text/css').
             body{
             padding-top:60px;
@@ -25,6 +36,8 @@ html
                         else                                 
                             li
                                a(href='/logout')  退出
+                        li
+                            a(href="/map") 地图热点
         #container.container
             block content
             hr
@@ -33,6 +46,4 @@ html
                 p 
                     a(href="http://www.baidu.com",traget="_blank")  有态度的马甲          
                     span 2016
-    script(src='/javascripts/jquery.js')
-    script(src='/javascripts/bootstrap.js')
-    script(src='/javascripts/Common.js')
+    

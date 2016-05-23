@@ -15,7 +15,7 @@ router.get('/', function(req, res,next) {
 
 // 定义网站主页使用的路由
 router.get('/', function(req, res) {
-	res.render('index', { title: 'Express',info:req.flash('info')} );		
+	res.render('index', { title:'Express',info:req.flash('info')} );		
 });
 
 router.get('/u/:user',function(req,res){			
@@ -40,7 +40,7 @@ router.get('/u/:user',function(req,res){
 router.post('/post',checkLogin);
 router.post('/post',function(req,res){
 	var currentUser = req.session.user;
-	var post = new  Post(currentUser.name,req.body.post);
+	var post = new Post(currentUser.name,req.body.post);
 	post.save(function(err){
 		if(err) {
 			req.flash('error',err);
@@ -55,6 +55,12 @@ router.get('/reg',checkNotLogin);
 router.get('/reg',function(req,res,next){
 	res.render('reg',{
 		title:'用户注册'
+	});
+});
+
+router.get('/map',function(req,res,next) {
+	res.render('map',{
+		title:'地图热点'
 	});
 });
 

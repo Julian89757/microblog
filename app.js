@@ -21,10 +21,10 @@ var users = require('./routes/users');
 var flash =require('connect-flash');
 var app = express();
 
-// 能够set的属性是 app settings table 里面指定的配置项
+// 能够set的属性是 app settings table 里面指定的配置项 [视图，视图引擎，开发配置项]
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-app.set('env','production');                
+app.set('env','production');                      
 
 
 /* 以下是应用级中间件 */
@@ -54,7 +54,7 @@ app.use(function(req,res,next) {
 });
 
 
-// 配置静态文件请求路由控制器, 提供静态文件服务，如果有静态文件请求，则到此目录下寻找
+// 配置静态文件请求路由控制器, 提供静态文件服务，如果有静态文件请求，则到此目录下寻找，这时候jade引擎静态文件路径不要加public
 // GET /javascripts/jquery.js
 // GET /style.css
 // GET /favicon.icon   app.use([path],function) path默认为 '/'
@@ -75,10 +75,10 @@ app.use('/',function(req, res, next) {
 // will print stacktrace
 if (app.get('env') === 'development') {
     app.use('/',function(err, req, res, next) {
-        res.status(err.status || 500);                  // 要注意Javsscript中 || 的用法，一般用法是做默认值。
+        res.status(err.status || 403);                  // 要注意Javsscript中 || 的用法，一般用法是做默认值。
         res.render('error', {
             message: err.message,
-            error: err                                  // 这里打印堆栈
+            error: err                                  
         });
     });
 }
