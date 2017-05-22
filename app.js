@@ -20,14 +20,7 @@ var users = require('./routes/users');
 
 var flash = require('connect-flash');
 var app = express();
-var compressor = require('node-minify');
-
-compressor.minify({
-    compressor:'gcc',
-    publicFolder:'./public/stylesheets/',
-    input: '/*.css',
-    output:'/content.css'
-});
+var minify = require('express-minify');
 
 
 app.set('views', path.join(__dirname, 'views'));
@@ -52,11 +45,10 @@ app.use(function(req,res,next) {
     var error  = req.flash('error');
     res.locals.error = error.length?error:null;
 
-    var  success = req.flash('success');
-    res.locals.success =success.length ? success:null;
+    var success = req.flash('success');
+    res.locals.success = success.length ? success:null;
     next();
 });
-
 
 
 app.use(express.static(path.join(__dirname, 'public')));

@@ -28,11 +28,8 @@ Post.get = function(username,callback){
             if(username) {
                 query.user =username;
             }
-            // MongoDB 是文档型 NOSQL数据库的代表
             collection.find(query).sort({time:-1}).toArray(function(err,docs)   {
                 mongodb.close();
-                console.log(docs);
-
                 if(err) {
                     callback(err);
                 }

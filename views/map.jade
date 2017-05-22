@@ -1,7 +1,18 @@
 extends ./layout.jade
 
+block scripts
+	script(src='/javascripts/jstree/jstree.min.js')
+	script(src='/javascripts/jquery-ui.min.js')
+	script(src='http://api.map.baidu.com/api?v=2.0&ak=SSC5M3AFkxWqbgXLDpItGi8g')
+	script(src='http://api.map.baidu.com/library/AreaRestriction/1.2/src/AreaRestriction_min.js')
+	script(src='http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js')
+	script(src='http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer.js')
+	script(src='/Overlay.js')
+	script(src='/map.js')
+	link(rel='stylesheet', href='/stylesheets/base.css')
+	link(rel='stylesheet', href='/javascripts/jstree/themes/default/style.css')
 block content
-	.container.bs-docs-container
+	.container.body-content
 		.row
 			.col-md-9(role='main')
 				ol(class='breadcrumb')

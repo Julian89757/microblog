@@ -17,6 +17,6 @@
     "mongodb":">=2.2.19",
     "connect-flash":">=0.1.1",
     "express-session":"~1.0.4",
-    "node-minify":"2.0.5"
+    "express-minify":"0.2.0"
   }
 }
