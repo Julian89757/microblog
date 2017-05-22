@@ -4,9 +4,143 @@ block content
 	.container.bs-docs-container
 		.row
 			.col-md-9(role='main')
-				h1 本页面只适用于PC端查看
-				#map.container
+				ol(class='breadcrumb')
+					li
+						a(href='/') 地图热点
+				#map.bs-docs-example
 			.col-md-3(role='complementary')
-				p 设备列表
-				#deviceListContent
-		
+				.list-group
+					a(href='#',class='list-group-item active') 设备管理
+					#using_json(class='container')
+				.panel.panel-info
+					.panel-heading
+						h3.panel-title 帮助提示
+					.panel-body 本页面非响应式，你懂的！
+
+
+		script(src='/common.js')
+		script.
+			window.map = null;
+			window.flag = 0;                       // edit 1 ，load 0
+			window.markers = [];
+
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+
+			initMap("map");
+			initData();
+
+			function initData() {
+				/* TODO　从json 文件中加载json */
+				var data = [
+					{
+						'text': 'Simple root node',
+						'type': 'group',                  // 自定义类型type
+						'children': [
+							{'text': 'Child 0', 'li_attr': {lng: '104.062736', lat: '30.528012'}},
+							'Child 01',
+
+						]
+					},
+					{
+						'text': 'Root node 2',
+						'type': 'group',
+						'children': [
+							{'text': 'Child 11'},
+							'Child 2',
+							{
+								'text': 'Root node 3',
+								'type': 'group',
+								'children': [
+									{'text': 'Child 4', 'state': {'selected': false}},
+									'Child 04'
+								]
+							}
+						]
+					}
+				];
+
+				createTree('using_json', data, {
+							'select_node.jstree': function (e, data) {
+								var node = data.node;
+								$('#using_json').jstree("toggle_node", node);
+								if (node.parent === '#') {
+									map.reset();
+									return false;
+								}
+								if (node.li_attr.lng && node.li_attr.lat) {
+									var pt = new BMap.Point(node.li_attr.lng, node.li_attr.lat);
+									map.panTo(pt);
+									var overlay = map.getOverlay(node.li_attr.id);
+									overlay.toggle();
+									// setTimeout( overlay.toggle, 2000); 是错误的，setTimeOut 内部函数的执行环境是window，以下写法形成一个闭包
+									setTimeout(function () {
+										overlay.toggle()
+									}, 3000);
+								}
+							},
+							'loaded.jstree': function (e, data) {
+								data.instance.open_all();
+								$.each(data.instance._model.data, function (i, n) {
+									if (n.li_attr && n.li_attr.lng && n.li_attr.lat) {
+
+										var point = new BMap.Point(n.li_attr.lng, n.li_attr.lat);
+										map.markLocation(point, n);
+									}
+								});
+
+							},
+							'open_node.jstree': function (e, data) {
+								var node = data.node;
+								data.instance.set_icon(node, 'glyphicon glyphicon-folder-open');
+							},
+							'close_node.jstree': function (e, data) {
+								var node = data.node;
+								data.instance.set_icon(node, 'glyphicon glyphicon-folder-close');
+							}
+						}, {
+							'dnd_stop.vakata': function (e, data) {             // 是否允许 jstree 节点拖拽
+
+								var node = $.jstree.reference('#' + data.data.obj.context.id).get_node(data.data.nodes[0]);
+								if (node.type === 'group')
+									return false;
+								if (flag === 0 || node.li_attr.lat && node.li_attr.lng) {
+									return false;
+								}
+								/* 以下将采用事件触发的方式 */
+								var pt = null;
+								var x = data.event.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+								var y = data.event.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+
+
+								var x1 = x - $('#map').offset().left;
+								var y1 = y - $('#map').offset().top;
+
+								var x2 = x - ($('#map').offset().left + $('#map').width());
+								var y2 = y - ($('#map').offset().top + $('#map').height());
+								if ((x1 < 0 || y1 < 0) || (x2 > 0 || y2 > 0)) {
+									return false;
+								}
+
+								var point = map.pixelToPoint(new BMap.Pixel(x1, y1));
+								node.li_attr.lng = point.lng;
+								node.li_attr.lat = point.lat;
+
+								if (map.markLocation(point, node) === true) {
+									// TODO something  change the jstree node data
+									return true;
+								}
+							},
+							'context_show.vakata': function (e, data) {         // 控制是否显示 右键菜单
+								var jstree = $.jstree.reference('#' + data.reference.context.id);
+								var node = jstree.get_node(data.reference);
+								if (flag === 0 || node.type == 'group' || !node.li_attr.lng || !node.li_attr.lat) {
+									$(data.element).hide();
+									return false;
+								}
+
+							}
+						}
+				);
+			};

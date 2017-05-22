@@ -1,5 +1,5 @@
 //   微博模型
-var  mongodb  = require('./db');
+var  mongodb  = require('./connection');
 
 function Post(username,post,time){
     this.user = username;
@@ -14,7 +14,7 @@ function Post(username,post,time){
 
 module.exports = Post;      //  此模块将返回Post对象，不是基于Post对象的实例
 
-Post.get= function(username,callback){
+Post.get = function(username,callback){
     mongodb.open(function(err,db){
         if(err) {
             return  callback(err);
@@ -47,7 +47,7 @@ Post.get= function(username,callback){
     })
 }
 
-Post.prototype.save= function(callback) {
+Post.prototype.save = function(callback) {
     var  post = new Post(this.user,this.post,new  Date());
 
     mongodb.open(function(err,db){

@@ -1,6 +1,6 @@
 // 集成多核CPU
-var  cluster  = require('cluster');
-var os=require('os');
+var cluster  = require('cluster');
+var os= require('os');
 
 var  numCPUs =os.cpus().length;
 

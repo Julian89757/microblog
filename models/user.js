@@ -1,8 +1,7 @@
-//  User 模型是真正与数据打交道的工具
-var  mongodb  = require('./db');
+var  mongodb  = require('./connection');
 
-function  User(user){
-	this.name  =user.name;
+function User(user){
+	this.name = user.name;
 	this.password  = user.password;
 };
 
@@ -36,7 +35,6 @@ User.prototype.save = function save(callback) {
 	});
 };
 
-// 有点类似于静态方法，实际上只对User对象有效， new User()实例化的对象是没有此方法的
 User.get = function get(username,callback){
 	mongodb.open(function(err,db) {
 		if(err)	{
